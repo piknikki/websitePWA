@@ -1,0 +1,11 @@
+{
+  "name": "websitepwa",
+  "version": "1.0.0",
+  "description": "making my website into a pwa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nikki petersen",
+  "license": "ISC"
+}

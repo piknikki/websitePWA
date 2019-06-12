@@ -1,0 +1,145 @@
+
+
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Pacifico', cursive;*/
+/*font-family: 'Gloria Hallelujah', cursive;*/
+/*font-family: 'Kalam', cursive;*/
+/*font-family: 'Patrick Hand', cursive;*/
+/*font-family: 'Gochi Hand', cursive;*/
+/*font-family: 'Covered By Your Grace', cursive;*/
+/*font-family: 'Nanum Brush Script', cursive;*/
+/*font-family: 'Sue Ellen Francisco', cursive;*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    background: #20313B;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+p {
+    color: #d2d2d6;
+    padding: 10px 100px;
+}
+
+.big-heading {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
+    margin-left: 40px;
+    color: #d2d2d6;
+}
+
+#np {
+    font-family: 'Patrick Hand', cursive;
+    color: #E22866;
+    font-size: 3em;
+    margin-left: 20px;
+}
+
+#nikki,
+#here {
+    color: #E22866;
+}
+
+.nav-link {
+    color: #d2d2d6;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1em;
+    letter-spacing: 1px;
+    vertical-align: center;
+    margin-left: 1px;
+    margin-right: 6px;
+}
+
+.nav-link:hover {
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    margin-left: 0;
+    margin-right: 5px;
+    color: #E22866;
+}
+
+a.np, .btn-link {
+    font-family: 'Patrick Hand', cursive;
+    text-decoration: none;
+    color: #d2d2d6;
+    padding: 0;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.btn-link:hover,
+.btn-link:active {
+    text-decoration: none;
+    color: white;
+}
+
+.btn,
+.bottom-button {
+    vertical-align: baseline;
+}
+
+.btn-link {
+    text-decoration:none !important;
+}
+
+#dbl-curve, #sgl-curve {
+    width: 100%;
+    border: none;
+}
+
+.card, .card-body {
+    background: #153B56;
+    border: none;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card-header {
+    background: #153B56;
+    border: none;
+    padding: 40px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.work-image {
+    width: 250px;
+    height: 170px;
+    margin: 20px;
+    padding: 20px;
+}
+
+#norway {
+    height: 245px;
+    width: 320px;
+}
+
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+#about-section {
+    text-align: left;
+    padding: 20px;
+}
+
+
+footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}

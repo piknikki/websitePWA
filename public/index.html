@@ -1,0 +1,202 @@
+<!-- Personal Website work -->
+
+<!-- main page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nikki Petersen</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130194883-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-130194883-1');
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon"
+          type="image/png"
+          href="images/favicon.ico">
+
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans|Lato|Roboto|Montserrat|Gloria+Hallelujah|Gochi+Hand|Kalam|Nanum+Brush+Script|Patrick+Hand|Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+
+    <!-- Linking to Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Linking to jQuery -->
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+</head>
+<body>
+
+<!--Title section contains navbar and a title-->
+<section id="title">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+
+            <!--  navbar brand -->
+            <a class="navbar-brand" href="#"><h1 id="np" data-toggle="tooltip" data-placement="right" title="NP === Nikki Petersen === No Problem">{np}</h1></a>
+
+
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!--                  navbar items  -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/nikkipetersencsm/">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/piknikki">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="mailto: nikkipetersen.dev@gmail.com">Email</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <!--          Title   -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="big-heading">Nikki Petersen</h1>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+<!--  cover has image at the bottom of it  -->
+
+<section id="top-section">
+    <div class="row">
+        <div class="feature-box col-lg-10 col-md-12">
+            <p>I am passionate about keeping things intelligently simple. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="feature-box col-lg-10 col-md-12">
+            <p>I am a Full Stack Web Developer, using a MERN stack, among other languages.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <img id="dbl-curve" src="./images/curve-doubleLeft.png" alt="curve double left">
+    </div>
+
+</section>
+
+<!--  under the wave image, expand to show work  -->
+<section class="work-section">
+    <div class="accordion" id="accordionSection">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <p>See some of my work
+                    <button
+                            class="btn btn-link collapsed"
+                            type="button"
+                            id="here"
+                            data-toggle="collapse"
+                            data-target="#collapseOne"
+                            aria-expanded="false"
+                            aria-controls="collapseOne">
+                        {here}.</button>
+                </p>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSection">
+                <div class="card-body">
+                    <a class="card-link" href="https://thawing-caverns-69795.herokuapp.com/" >
+                        <img class="work-image" src='./images/clickgame.png' alt="click game" />
+                    </a>
+                    <a class="card-link" href="https://whispering-spire-37868.herokuapp.com/" >
+                        <img class="work-image" src='./images/burgers.png' alt="burger app" />
+                    </a>
+                    <a class="card-link" href="https://evening-headland-21699.herokuapp.com" >
+                        <img class="work-image" src='./images/sociallyawkward.png' alt="socially awkward gorilla" />
+                    </a>
+                    <a class="card-link" href="http://www.nikkipetersen.dev/Project1/" >
+                        <img class="work-image" src='./images/eventsearch.png' alt="event search" />
+                    </a>
+                    <a class="card-link" href="https://www.nikkipetersen.dev/unit-4-game/" >
+                        <img class="work-image" src='./images/crystal.png' alt="crystal game" />
+                    </a>
+                    <a  class="card-link" href="http://www.nikkipetersen.dev/TrainSchedule/" >
+                        <img class="work-image" src='./images/trains.png' alt="train scheduler" />
+                    </a>
+
+                </div>
+            </div>
+            <img id="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!--  Footer  -->
+
+<footer id="footer">
+
+    <p>Made by
+        <button
+                class="btn btn-link collapsed bottom-button"
+                type="button"
+                id="nikki"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo">
+            {Nikki}
+        </button>
+        with 🏳️‍🌈, ♥️, 🧠, 🍩, and ☕.</p>
+
+    <div class="collapse" id="collapseTwo">
+        <div class="card card-body">
+
+            <p id="about-section"><img id="norway" class="left" src="./images/nikkiinnorway.jpg" alt="norway photo">
+                I am Nikki Petersen. I live in the Denver metro area and I have spent a little less than a year teaching
+                myself Software Development. My experience includes: HTML/CSS, Bootstrap,
+                JavaScript, JQuery, Node.js, Express, MySQL, Sequelize, Mongo/Mongoose, Handlebars,
+                EJS, React, and a handful of other random packages/libraries/etc. I spend my professional free
+                time continually learning. Right now, I'm adding testing methods and practices to my skillset.
+                Personal free time is spent outdoors with my kids, learning and creating and generally engaging in
+                shenanigans.
+            </p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
