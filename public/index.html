@@ -8,19 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Nikki Petersen</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130194883-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-130194883-1');
-    </script>
-
     <!-- Favicon -->
-    <link rel="icon"
-          type="image/png"
-          href="images/favicon.ico">
+<!--    <link rel="icon"-->
+<!--          type="image/png"-->
+<!--          href="images/favicon.ico">-->
 
     <!-- Linking Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans|Lato|Roboto|Montserrat|Gloria+Hallelujah|Gochi+Hand|Kalam|Nanum+Brush+Script|Patrick+Hand|Sue+Ellen+Francisco&display=swap" rel="stylesheet">
@@ -35,7 +26,29 @@
             crossorigin="anonymous"></script>
 
     <!-- Linking CSS -->
-    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="stylesheet" type="text/css" href="./style2.css">
+    
+    <!--    Linking to manifest.json-->
+    <link rel="manifest" href="manifest.json">
+
+    <!--    Apple support for icons  -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWAGram">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-57x57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-60x60.png" sizes="60x60">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-72x72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-76x76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-114x114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-120x120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-144x144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-152x152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/src/images/icons/apple-icon-180x180.png" sizes="180x180">
+
+    <!--    IE support -->
+    <meta name="msapplication-TileImage" content="/src/images/icons/app-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="theme-color" content="#3f51b5">
 
 </head>
 <body>
@@ -107,7 +120,7 @@
     </div>
 
     <div class="row">
-        <img id="dbl-curve" src="./images/curve-doubleLeft.png" alt="curve double left">
+        <img id="dbl-curve" src="/src/images/curve-doubleLeft.png" alt="curve double left">
     </div>
 
 </section>
@@ -133,27 +146,27 @@
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSection">
                 <div class="card-body">
                     <a class="card-link" href="https://thawing-caverns-69795.herokuapp.com/" >
-                        <img class="work-image" src='./images/clickgame.png' alt="click game" />
+                        <img class="work-image" src='/src/images/clickgame.png' alt="click game" />
                     </a>
                     <a class="card-link" href="https://whispering-spire-37868.herokuapp.com/" >
-                        <img class="work-image" src='./images/burgers.png' alt="burger app" />
+                        <img class="work-image" src='/src/images/burgers.png' alt="burger app" />
                     </a>
                     <a class="card-link" href="https://evening-headland-21699.herokuapp.com" >
-                        <img class="work-image" src='./images/sociallyawkward.png' alt="socially awkward gorilla" />
+                        <img class="work-image" src='/src/images/sociallyawkward.png' alt="socially awkward gorilla" />
                     </a>
                     <a class="card-link" href="http://www.nikkipetersen.dev/Project1/" >
-                        <img class="work-image" src='./images/eventsearch.png' alt="event search" />
+                        <img class="work-image" src='/src/images/eventsearch.png' alt="event search" />
                     </a>
                     <a class="card-link" href="https://www.nikkipetersen.dev/unit-4-game/" >
-                        <img class="work-image" src='./images/crystal.png' alt="crystal game" />
+                        <img class="work-image" src='/src/images/crystal.png' alt="crystal game" />
                     </a>
                     <a  class="card-link" href="http://www.nikkipetersen.dev/TrainSchedule/" >
-                        <img class="work-image" src='./images/trains.png' alt="train scheduler" />
+                        <img class="work-image" src='/src/images/trains.png' alt="train scheduler" />
                     </a>
 
                 </div>
             </div>
-            <img id="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">
+            <img id="sgl-curve" src="/src/images/curve-singleRightLight.png" alt="curve single right">
         </div>
 
     </div>
@@ -181,7 +194,7 @@
     <div class="collapse" id="collapseTwo">
         <div class="card card-body">
 
-            <p id="about-section"><img id="norway" class="left" src="./images/nikkiinnorway.jpg" alt="norway photo">
+            <p id="about-section"><img id="norway" class="left" src="/src/images/nikkiinnorway.jpg" alt="norway photo">
                 I am Nikki Petersen. I live in the Denver metro area and I have spent a little less than a year teaching
                 myself Software Development. My experience includes: HTML/CSS, Bootstrap,
                 JavaScript, JQuery, Node.js, Express, MySQL, Sequelize, Mongo/Mongoose, Handlebars,
@@ -198,5 +211,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="src/js/app.js"></script>
 </body>
 </html>
