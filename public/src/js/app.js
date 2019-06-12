@@ -1,3 +1,5 @@
+// should also use polyfills so that fetch can be used on any browser
+
 var deferredPrompt;
 
 if ('serviceWorker' in navigator) {
